@@ -10,7 +10,7 @@ JOURNALS = {
     "nce":   {"name": "Nature Chemical Engineering",    "issn": ["2948-1198"], "home": "https://www.nature.com/natchemeng/research-articles"},
     "nsus":  {"name": "Nature Sustainability",          "issn": ["2398-9629"], "home": "https://www.nature.com/natsustain/research-articles"},
     "joule": {"name": "Joule",                          "issn": ["2542-4351", "2542-4785"], "home": "https://www.cell.com/joule/home"},
-        "ees":   {"name": "Energy & Environmental Science", "issn": ["1754-5706", "1754-5692"], "home": "https://pubs.rsc.org/en/journals/journalissues/ee", "rss": ["https://pubs.rsc.org/en/journals/rss/ee", "http://feeds.rsc.org/rss/ee"]},,
+        "ees":   {"name": "Energy & Environmental Science", "issn": ["1754-5706", "1754-5692"], "home": "https://pubs.rsc.org/en/journals/journalissues/ee", "rss": ["https://pubs.rsc.org/en/journals/rss/ee", "http://feeds.rsc.org/rss/ee"]},
     "acsel": {"name": "ACS Energy Letters",             "issn": ["2380-8195"], "home": "https://pubs.acs.org/toc/aelccp/current"},
     "aiche": {"name": "AIChE Journal",                  "issn": ["1547-5905", "0001-1541"], "home": "https://aiche.onlinelibrary.wiley.com/journal/15475905"},
     "cej":   {"name": "Chemical Engineering Journal",   "issn": ["1385-8947", "1873-3212"], "home": "https://www.sciencedirect.com/journal/chemical-engineering-journal"},
