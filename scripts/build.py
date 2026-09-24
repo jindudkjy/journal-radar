@@ -8,6 +8,7 @@
           ANTHROPIC_MODEL   (선택) 기본 claude-sonnet-5
 """
 import html, json, os, re, sys, time
+import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -105,7 +106,56 @@ def fetch_journal(jkey, since):
         run(f",issn:{issn}", f"ISSN {issn}")
     if not rows:
         run("", "저널 이름 검색", query=j["name"])
+    if not rows and j.get("rss"):
+        rows = fetch_rss(jkey, since)
     print(f"  {j['name']}: {len(rows)}편")
+    return rows
+
+CACHE = ROOT / "data" / "rss_cache.json"
+
+def fetch_rss(jkey, since):
+    """RSS 피드로 최신 논문을 받고, 저장소의 캐시 파일에 쌓아 3개월 치를 유지합니다."""
+    j = JOURNALS[jkey]
+    cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+    known = {p["url"]: p for p in cache.get(jkey, [])}
+    got = 0
+    for url in j.get("rss", []):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=60)
+            r.raise_for_status()
+            root = ET.fromstring(r.content)
+        except Exception as e:
+            print(f"    - RSS {url}: 실패 ({e})")
+            continue
+        # RSS 2.0(<item>)과 RSS 1.0/RDF(<{ns}item>) 모두 처리
+        items = [el for el in root.iter() if el.tag.split("}")[-1] == "item"]
+        for it in items:
+            f = {c.tag.split("}")[-1]: (c.text or "").strip() for c in it}
+            title = clean(f.get("title", ""))
+            link = f.get("link", "")
+            doi = next((v for k, v in f.items() if k == "identifier" and "10." in v), "")
+            doi = re.sub(r"^(doi:|https?://(dx\.)?doi\.org/)", "", doi, flags=re.I)
+            href = f"https://doi.org/{doi}" if doi else link
+            raw = f.get("date") or f.get("pubDate") or ""
+            d = None
+            for fmt in ("%Y-%m-%d", "%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S %Z"):
+                try:
+                    d = datetime.strptime(raw[:10] if fmt == "%Y-%m-%d" else raw, fmt).date(); break
+                except ValueError:
+                    pass
+            if not title or not href or SKIP.match(title):
+                continue
+            text = title + " " + clean(f.get("description", ""))[:1500]
+            known[href] = {"j": jkey, "title": title, "url": href,
+                           "date": (d or date.today()).isoformat(), "topics": classify(text)}
+            got += 1
+        print(f"    - RSS {url}: {len(items)}건")
+        if got:
+            break
+    rows = [p for p in known.values() if p["date"] >= since.isoformat()]
+    cache[jkey] = rows
+    CACHE.parent.mkdir(exist_ok=True)
+    CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
     return rows
 
 def stats(papers, today):
