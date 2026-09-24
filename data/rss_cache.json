@@ -1,0 +1,861 @@
+{
+ "ees": [
+  {
+   "j": "ees",
+   "title": "In-Situ Formed Bionic Cell Wall Interphase Enables Reversible Zn Anode for High-Performance Aqueous Batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE03332F",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Suppressing the interface electric field fluctuation through faceto-face electronic channel regulation for sustainable zinc batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02798A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Algae-inspired hydrogel electrolytes with sulfate-group-mediated polyiodide repulsion for stable iodine chemistry",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE03238A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Chlorinated Polypropylene Enables Stress-Dissipative Networks and High Efficiency in Intrinsically Stretchable Organic Photovoltaics",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02777F",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Energy efficient integrated H2O2 electrosynthesis via tailored bubble dynamics",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02489K",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Inline quality grading of commercial lithium-ion battery manufacturing via data-efficient learning and transferable assessment",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02209J",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "The critical role of water structure in anion transport",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01258B",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Hydrogen-free exsolution of Ir–Fe nanoalloys on the surface of solid oxide cell perovskite air electrodes",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00100A",
+   "date": "2026-09-24",
+   "topics": [
+    "pv",
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Machine learning driven design of polymer dielectrics for high temperature capacitive energy storage",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01953F",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Maximising the economic value of renewable and battery storage hybrids with revenue stacking",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00776G",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Why more junctions do not yet deliver: interconnection challenges in perovskite multijunction solar cells",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01631F",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Breaking the performance trade-offs in ammonia synthesis via spontaneous proton supply",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01570K",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Lewis acidic molecule-modulated synchronous anion immobilization and decomposition towards a robust solid electrolyte interphase with enhanced Zn2+ kinetics",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02521H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Entropy-regulated dielectric friction in a eutectic electrolyte unlocks 150 °C high-performance Li metal batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02417C",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Conductive polymer-coated nanocellulose enables dual-gradient thick electrodes for redox-homogeneous ultrahigh-areal-capacity Li-ion batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01622G",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Lower critical solution temperature (LCST)-mediated direct air capture of carbon dioxide with high capacity and low regeneration energy",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01563H",
+   "date": "2026-09-24",
+   "topics": [
+    "ccus",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Molecularly engineered dual-network eutectogel electrolytes for high-loading and stable zinc–iodine batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02664H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Built-In Electric Fields and Ir-Cl Motifs at Heterointerfaces Enable Selective and Durable Seawater Electrolysis",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02150F",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Strong electron push–pull effect and low transition barrier boosting non-metallic COFs photoelectrode for ultrahigh-rate photo-assisted Li–air batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01403H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Interfacial water mediated oxide path mechanism for efficient acidic water oxidation on Co3O4",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02097F",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Soft-chemistry routes to entropy-engineered nanomaterials: complexity-driven performance in redox electrocatalysis",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00987E",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Design Principles, Interfacial Regulation, and AI-Guided Opportunities of Hydrogel Electrolytes for Zinc Metal Batteries in Extreme Conditions",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02337A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "A high-adaptability ambient energy harvester enhanced by the canyon effect for smart agriculture",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02135B",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Hydrogel-based moisture electricity generators: materials, mechanisms, and sustainable device design",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01584K",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Monitoring of electro-chemo-mechanics in Li metal electrodes by optical fibre sensors",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01805J",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Crystal facet engineering empowers zinc materials with diverse facet orientations: preparation strategies, performance advantages, and application challenges",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00867D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Tailoring an iron-based metal–organic framework for a Zn-ORR/CER battery",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00064A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "An ecosystem of carbon dioxide removal reviews – part 2: CO2 removal via blue carbon ecosystems",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE04922A",
+   "date": "2026-09-24",
+   "topics": [
+    "ccus",
+    "sys",
+    "clim"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Synergistic boosting of electrical output of moisture-electric generator based on CCNF-LiCl-PAM hydrogel",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00528D",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Composition-invariant strain engineering of metal sulfides for efficient hydrogen evolution",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01630H",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Hydrogen-driven thermoelectric trigeneration for sustainable homes: electricity, water, and heat",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02588A",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Tannic acid as a multifunctional bridge driving structural ordering and surface passivation of ZnO for over 20% efficiency inverted solar cells with improved stability",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01017B",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Low-temperature all-vacuum-deposited interfacial layers for high-performance and reproducible flexible inverted organic solar cells and modules",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07833D",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Environmental and geographic constraints shape global pumped hydroelectric storage for long-duration energy storage",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01331G",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Efficient and stable electrochemical carbon capture via integrated CO2 absorption and regeneration",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01132B",
+   "date": "2026-09-24",
+   "topics": [
+    "ccus"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Breaking the cascade dissolution loop through the self-inhibition mechanism for zinc–vanadium oxide batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07525D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Low-carbon circular recycling of spent lithium-ion battery cathodes via direct regeneration and high-value upcycling",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02149B",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Precursor-driven Jahn–Teller distortion as a hidden origin of surface instability in Mn-stabilized Ni-rich cathodes",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00713A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Large-pore mesoporous covalent organic frameworks as fast ion sieves via kinetics-mediated micelle assembly for aqueous batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01393G",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Direct upcycling of mixed plastic waste into liquid alkanes",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07522J",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Chemically driven conformational rearrangement of PVDF-based polymer electrolyte to improve ionic conductivity for long-cycling lithium metal batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00044D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Modulation of d–d orbital hybridization via creating asymmetrical paired iron sites for the oxygen reduction reaction",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01866A",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Breaking the kinetic pH effect in the hydrogen evolution reaction via strain-induced interfacial water reorganization",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01390B",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Highly stable Mn–Sn flow batteries towards low-temperature energy storage",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01772J",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Bridging redox asymmetry in hot and cold cells for boosted power density in thermally regenerative flow batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07558K",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "In situ polymerized zwitterionic elastomers for efficient and stable perovskite solar cells",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07792C",
+   "date": "2026-09-24",
+   "topics": [
+    "pv",
+    "clim"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Synergistically Facilitate Charge Dynamics and Suppress Energetic Disorder via Tailoring Solid Additive Substituents for Efficient Organic Solar Cells Over 21%",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01222A",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Synergizing phase engineering and site-selective substitution through the rational design of a high-entropy layered oxide cathode enables air-stable and long-life sodium-ion batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07341C",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Stability of inverted perovskite solar cells: a focus on interface phenomena",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D5EE07642K",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "CVD-grown tunable carbon films for high-performance sodium storage",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01852A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Stabilizing the buried interface via inorganic–organic hybrid layers for high-performance perovskite photovoltaics",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01195K",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Inhibition of shuttle effect in organic cathode and in situ mechanistic exploration",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00605A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Defect-directed regeneration of LiCoO2 cathodes via gradient cobalt reprogramming",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02083F",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Electron-Withdrawing Chemistry Drives Ultrafast-Charging Interphases for Sodium-ion Batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01449F",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Modulating interfacial ion flux via electrode coatings enables efficient acidic CO2 electrolysis",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01796G",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "ccus"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Solar-complemented moisture electric generator for synergistic energy harvesting in all regions",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01476C",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Molecular orchestration enables mutually reinforcing electrolyte chemistry for lithium metal batteries exceeding 500 Wh kg−1",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02570F",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Discharge-triggered electronic delocalization via asymmetric motifs suppresses Jahn–Teller distortion in Mn-based layered oxides",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE03005J",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Dual-mechanism synergy of adsorbate evolution and lattice oxygen in high-entropy oxides for enhanced water oxidation",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00598E",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Nonplanar tertiary-N extended nitrobenzene enables insoluble and low-energy-barrier organic small-molecule cathodes for high-performance aqueous batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02250B",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Hydrogen-bond-engineered polymer dielectrics for 250 °C operation enabled by deep-learning-based virtual screening",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01214K",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Suppressing dendrites via lateral lithium flux in Li metal solid-state batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02327D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Multiscale microenvironment engineering at the gas–liquid–solid triple-phase interface for electrochemical hydrogen evolution",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02182D",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Spider dragline silk-inspired 3D printed sustainable zinc ion batteries with ultrahigh stability",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02022D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Integrating atomic scale catalyst design with transport engineering for stable and efficient CO2 electrolysis to CO in a membrane electrode assembly",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00129G",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "ccus",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Disentangling the activity–charge coupling in cocatalyst–semiconductor heterojunctions for optimized oxygen evolution",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00362A",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Supramolecular hosts for high-performance and sustainable perovskite optoelectronics",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02642G",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "A kinetic descriptor of solvent polarization for rational electrolyte design in lithium–metal batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01727D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Membrane-free osmotic power generators with high-performance energy conversion",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01945E",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Direct electrode-to-electrode regeneration of end-of-life batteries via electrode–electrolyte interphase dissolution",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01118G",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Size-dependent dynamic surface states of Ru clusters: modulating interfacial water structure for enhanced alkaline hydrogen evolution reaction",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01604A",
+   "date": "2026-09-24",
+   "topics": [
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "High-performance LiFePO4 regeneration through Na-induced lattice activation and conductivity rewiring",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02323A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Electronic-structure descriptor-guided design of high-entropy perovskites for efficient CO2 electrolysis",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02221A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "pv",
+    "h2"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "An expandable cement-induced pseudo-supercapacitor brick for self-energy-storage buildings",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00784H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "A synergistic dual additive strategy for constructing gradient hydrophobic interfaces toward ultrastable aqueous zinc metal anodes",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01319H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Concentration–structure dual-gradient architecture in high-Ni/low-Co single-crystal NCM cathodes",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00273K",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Dual characteristics of Mn2+ dissolution from manganese oxide cathode materials in aqueous zinc batteries: trade-offs between active material loss and double capacity contribution",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00712K",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Navigating interfaces in solid-state sodium batteries: challenges, solutions, and future directions",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01558A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "High-entropy-cooperated single-atom catalysis: an emerging paradigm bridging configurational complexity and atomic precision for catalytic applications",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00138F",
+   "date": "2026-09-24",
+   "topics": [
+    "mat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Ion-directed polymer/inorganic interphase with enriched charge for stable and high-rate Zn anodes",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01602B",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Strain-mediated grain-boundary reconstruction unlocks high near-room-temperature thermoelectric performance in Mg3Sb2-based alloys",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01515H",
+   "date": "2026-09-24",
+   "topics": [
+    "clim"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Localized anion-rich solvation structures in low-concentration electrolytes enabled by non-coordinating chaotropes for deep-cycling zinc metal batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00197A",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Unravelling the anion-dominated interfacial structure of hybrid solid electrolytes via ssNMR",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00543H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Molecular engineering of conjugated polymer cathodes via the one-pot preparation of high-rate and ultra-stable aqueous/seawater Zn-ion batteries under harsh conditions",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00199H",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Fluctuation-tolerant non-precious bifunctional Ni–Co–B monolithic electrodes for industrial-scale anion exchange membrane water electrolysis",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00982D",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "sep"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Orthogonal binary cation arrangement homogenizing interfacial coordination and improving electronic landscapes for high performance perovskite solar cells",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00174B",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Dynamic localized domains of metallic glasses enable high-capacity SbBi anodes for potassium-ion batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01770C",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Beyond electronic effects: hydrogen-bond engineering via N-mediated microenvironment control for accelerated oxygen electroreduction",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00569A",
+   "date": "2026-09-24",
+   "topics": [
+    "h2",
+    "ccus"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Activating sp hybridization of zinc iodide via πsp–p bonding donation enables Ah-level seawater-based wearable zinc–iodine pouch cells",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00836D",
+   "date": "2026-09-24",
+   "topics": [
+    "bat",
+    "sys"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Lattice reconstruction strategy for fast-charging plateau-type hard carbon anodes in ultra-long-life sodium-ion batteries",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE00708B",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "20.46% efficient organic solar cells with concurrent voltage enhancement and thermal stability enabled by crystallization-kinetics-controlled morphology",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE01250G",
+   "date": "2026-09-24",
+   "topics": [
+    "pv"
+   ]
+  },
+  {
+   "j": "ees",
+   "title": "Engineering interfacial built-in electric fields for accelerated and stable sodium-ion storage",
+   "url": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02318E",
+   "date": "2026-09-24",
+   "topics": [
+    "bat"
+   ]
+  }
+ ]
+}
