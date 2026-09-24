@@ -62,28 +62,36 @@ def get(url, params):
 
 
 def fetch_journal(jkey, since):
-    """ISSN 후보를 모두 조회해 DOI 기준으로 합치고, 커서로 페이지를 넘깁니다."""
+    """ISSN으로 논문 단위 검색을 하고, 비면 저널 이름으로 한 번 더 찾습니다."""
     j = JOURNALS[jkey]
     seen, rows = set(), []
-    for issn in j["issn"]:
+
+    def run(extra_filter, label, query=None):
+        before = len(rows)
         cursor = "*"
         while cursor and len(rows) < MAX_PER_JOURNAL:
-            params = {"filter": f"from-created-date:{since.isoformat()},type:journal-article",
+            params = {"filter": f"from-created-date:{since.isoformat()},type:journal-article{extra_filter}",
                       "rows": 1000, "cursor": cursor,
-                      "select": "DOI,title,URL,published-online,published,created,abstract,type"}
+                      "select": "DOI,title,URL,published-online,published,created,abstract,type,container-title"}
+            if query:
+                params["query.container-title"] = query
             if MAILTO:
                 params["mailto"] = MAILTO
-            msg = get(f"https://api.crossref.org/journals/{issn}/works", params)
+            msg = get("https://api.crossref.org/works", params)
             if not msg:
                 break
             items = msg.get("items", [])
             for it in items:
+                if query:  # 이름 검색은 비슷한 저널이 섞이므로 정확히 일치하는 것만
+                    ct = clean((it.get("container-title") or [""])[0]).lower()
+                    if ct != j["name"].lower():
+                        continue
                 doi = (it.get("DOI") or "").lower()
                 title = clean((it.get("title") or [""])[0])
                 d = date_of(it)
                 if not doi or doi in seen or not title or SKIP.match(title):
                     continue
-                if d and d < since:        # 예전 논문이 늦게 등록된 경우 제외
+                if d and d < since:
                     continue
                 seen.add(doi)
                 text = title + " " + clean(it.get("abstract", ""))[:1500]
@@ -91,9 +99,14 @@ def fetch_journal(jkey, since):
                              "date": (d or date.today()).isoformat(), "topics": classify(text)})
             cursor = msg.get("next-cursor") if len(items) == 1000 else None
             time.sleep(1)
+        print(f"    - {label}: {len(rows) - before}편")
+
+    for issn in j["issn"]:
+        run(f",issn:{issn}", f"ISSN {issn}")
+    if not rows:
+        run("", "저널 이름 검색", query=j["name"])
     print(f"  {j['name']}: {len(rows)}편")
     return rows
-
 
 def stats(papers, today):
     cut = (today - timedelta(days=RECENT_DAYS)).isoformat()
