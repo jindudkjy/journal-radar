@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>기후테크·화학공학 저널 트렌드 레이더</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#EDF1F0;--paper:#FFF;--ink:#12303A;--muted:#5A6F75;--line:#CBD6D5;--empty:#E3E9E8;--focus:#1B6E8A;--up:#1F7A4D;--down:#A23B32}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1D22;--paper:#152A31;--ink:#E4EEEE;--muted:#9BB1B5;--line:#2A444C;--empty:#1C343B;--focus:#6FC3DE;--up:#6FD19C;--down:#F08A7E}}
+:root[data-theme="dark"]{--bg:#0E1D22;--paper:#152A31;--ink:#E4EEEE;--muted:#9BB1B5;--line:#2A444C;--empty:#1C343B;--focus:#6FC3DE;--up:#6FD19C;--down:#F08A7E}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.6}
+a{color:inherit}:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:40px 20px 80px}
+h1{font-size:clamp(28px,5vw,46px);line-height:1.15;letter-spacing:-.02em;margin:0 0 14px;max-width:18ch}
+header p{color:var(--muted);max-width:68ch;margin:0 0 8px}
+h2{font-size:22px;margin:56px 0 6px}.sub{color:var(--muted);margin:0 0 18px;max-width:70ch;font-size:15px}
+.matrix-scroll{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
+table.matrix{border-collapse:separate;border-spacing:5px;min-width:860px;width:100%}
+.matrix th{font-weight:500;font-size:13px;color:var(--muted);text-align:center;padding:0 2px 6px;vertical-align:bottom}
+.matrix th .dot{display:block;width:10px;height:10px;border-radius:50%;margin:0 auto 6px}
+.matrix th.row{text-align:left;color:var(--ink);font-size:14px;white-space:nowrap;padding-right:10px}
+.matrix th.row small{display:block;color:var(--muted);font-weight:400;font-size:12px}
+.matrix tr.mom td{font-size:12.5px;text-align:center;font-weight:500;padding-top:6px}
+.cell{width:100%;height:52px;border:0;border-radius:8px;cursor:pointer;font:inherit;font-size:15px;font-weight:700;color:#fff}
+.cell.zero{background:var(--empty);color:var(--muted);font-weight:400;cursor:default}
+.cell[aria-pressed="true"]{outline:3px solid var(--ink);outline-offset:1px}
+.cell span{display:block;font-size:10.5px;font-weight:400}
+.legend{font-size:13px;color:var(--muted);margin-top:10px}
+.insights{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px 36px}
+.insight h3{font-size:17px;margin:0 0 4px;line-height:1.4}.insight p{margin:0;color:var(--muted);font-size:15px}
+.insight .bar{width:36px;height:4px;border-radius:2px;margin-bottom:10px}
+.jnotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));border-top:1px solid var(--line)}
+.jnote{padding:16px 16px 16px 0;border-bottom:1px solid var(--line)}.jnote h3{margin:0 0 4px;font-size:16px}
+.jnote h3 a{text-decoration:none}.jnote h3 a:hover{text-decoration:underline}.jnote p{margin:0;font-size:14.5px;color:var(--muted)}
+.count{font-weight:400;color:var(--muted);font-size:13px;margin-left:6px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:10px 0;z-index:5}
+.controls select,.controls input,.btn{font:inherit;font-size:15px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
+.controls input{flex:1;min-width:200px}.btn{cursor:pointer;background:transparent}
+.status{font-size:14px;color:var(--muted);margin:0 0 8px}
+ul.papers{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+ul.papers li{padding:14px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:4px 18px}
+a.title{font-size:16.5px;font-weight:500;text-decoration:none;line-height:1.45}a.title:hover{text-decoration:underline}
+.meta{font-size:13px;color:var(--muted)}.date{font-size:13px;color:var(--muted);white-space:nowrap;grid-row:1/3;grid-column:2;text-align:right}
+.chips{display:inline-flex;gap:6px;flex-wrap:wrap;margin-left:8px;vertical-align:middle}.chip{font-size:12px;padding:1px 8px;border-radius:99px;color:#fff}
+.more{margin:18px 0 0}footer{margin-top:60px;font-size:13.5px;color:var(--muted);max-width:75ch}
+@media (max-width:600px){ul.papers li{grid-template-columns:1fr}.date{grid-row:auto;grid-column:auto;text-align:left}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>기후테크·화학공학 저널 트렌드 레이더</h1>
+  <p>9개 저널의 최근 3개월 논문을 Crossref에서 매주 자동으로 모아 주제별로 분류합니다. 표의 칸을 누르면 그 저널·주제의 논문만 목록에 남고, 논문명을 누르면 원문으로 이동합니다.</p>
+  <p id="stamp" style="font-size:14px"></p>
+</header>
+<section><h2>저널별 주제 분포</h2>
+  <p class="sub">숫자는 논문 수, 색의 진하기는 그 저널 안에서 해당 주제가 차지하는 비중입니다. 맨 아래 줄은 최근 30일 비중이 그 이전 두 달보다 얼마나 늘었는지(%p) 보여 줍니다.</p>
+  <div class="matrix-scroll"><table class="matrix" id="matrix"></table></div><p class="legend" id="legend"></p></section>
+<section><h2>눈에 띈 흐름</h2><p class="sub" id="insub"></p><div class="insights" id="insights"></div></section>
+<section><h2>저널별 요약</h2><p class="sub">저널명을 누르면 해당 저널의 최신 논문 페이지로 이동합니다.</p><div class="jnotes" id="jnotes"></div></section>
+<section><h2 id="h-list">논문 목록</h2>
+  <div class="controls">
+    <select id="fj" aria-label="저널 선택"></select><select id="ft" aria-label="주제 선택"></select>
+    <input id="fq" type="search" placeholder="제목에서 검색 (예: perovskite, capture)" aria-label="제목 검색">
+    <button id="reset" class="btn" type="button">필터 초기화</button>
+  </div>
+  <p class="status" id="status" aria-live="polite"></p><ul class="papers" id="papers"></ul>
+  <p class="more"><button id="more" class="btn" type="button" hidden>200편 더 보기</button></p></section>
+<footer>데이터 출처: Crossref REST API. 주제는 제목과 초록의 키워드 규칙으로 자동 분류되므로 일부 오분류가 있을 수 있습니다. 링크는 DOI로 연결되며 원문 접근 권한은 각 출판사 정책을 따릅니다.</footer>
+</div>
+<script>
+const DATA = /*__DATA__*/null;
+const T=DATA.topics,J=DATA.journals,P=DATA.papers,S=DATA.stats;
+const tK=Object.keys(T),jK=Object.keys(J).filter(j=>S.totals[j]);
+let st={j:"all",t:"all",q:""},shown=200;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const rgba=(h,a)=>{const n=parseInt(h.slice(1),16);return `rgba(${n>>16&255},${n>>8&255},${n&255},${a})`};
+document.getElementById('stamp').textContent=`${DATA.since} ~ ${DATA.generated} 수집, 총 ${P.length.toLocaleString()}편`+(DATA.demo?' (샘플 데이터)':'');
+function matrix(){
+  let h='<thead><tr><th></th>'+tK.map(t=>`<th scope="col"><span class="dot" style="background:${T[t].color}"></span>${T[t].name}</th>`).join('')+'</tr></thead><tbody>';
+  jK.forEach(j=>{const tot=S.totals[j],c=S.counts[j]||{};
+    h+=`<tr><th scope="row" class="row">${esc(J[j].name)}<small>${tot.toLocaleString()}편</small></th>`;
+    tK.forEach(t=>{const n=c[t]||0;if(!n){h+='<td><button class="cell zero" disabled aria-label="0편">·</button></td>';return}
+      const sh=n/tot;h+=`<td><button class="cell" data-j="${j}" data-t="${t}" aria-pressed="${st.j===j&&st.t===t}" style="background:${rgba(T[t].color,Math.min(1,.28+sh*1.6))}" title="${esc(J[j].name)} · ${T[t].name}: ${n}편" aria-label="${esc(J[j].name)} ${T[t].name} ${n}편, 목록 필터">${n}<span>${Math.round(sh*100)}%</span></button></td>`});
+    h+='</tr>'});
+  h+='<tr class="mom"><th scope="row" class="row">최근 30일 변화</th>'+tK.map(t=>{const m=S.momentum[t];return `<td style="color:var(${m>0?'--up':m<0?'--down':'--muted'})">${m>0?'+':''}${m}%p</td>`}).join('')+'</tr>';
+  const tb=document.getElementById('matrix');tb.innerHTML=h+'</tbody>';
+  tb.querySelectorAll('.cell[data-j]').forEach(b=>b.onclick=()=>{const same=st.j===b.dataset.j&&st.t===b.dataset.t;
+    st.j=same?'all':b.dataset.j;st.t=same?'all':b.dataset.t;sync();all();if(!same)document.getElementById('h-list').scrollIntoView()});
+  const miss=Object.keys(J).filter(j=>!S.totals[j]).map(j=>J[j].name);
+  document.getElementById('legend').textContent='한 논문이 여러 주제에 걸리면 각각 셉니다.'+(miss.length?` 이번 수집에서 ${miss.join(', ')}은(는) 논문을 받지 못했습니다.`:'');
+}
+document.getElementById('insub').textContent=DATA.ai?'Claude가 이번 주 수집된 논문 제목과 통계를 읽고 작성한 해설입니다.':'수집 통계로 자동 작성한 요약입니다. ANTHROPIC_API_KEY를 설정하면 서술형 해설로 바뀝니다.';
+document.getElementById('insights').innerHTML=DATA.insights.map(i=>`<div class="insight"><div class="bar" style="background:${T[i.t].color}"></div><h3>${esc(i.h)}</h3><p>${esc(i.p)}</p></div>`).join('');
+document.getElementById('jnotes').innerHTML=Object.keys(J).map(j=>`<div class="jnote"><h3><a href="${esc(J[j].home)}" target="_blank" rel="noopener">${esc(J[j].name)}</a><span class="count">${(S.totals[j]||0).toLocaleString()}편</span></h3><p>${esc(J[j].note||'이번 수집에서 논문을 받지 못했습니다.')}</p></div>`).join('');
+const fj=document.getElementById('fj'),ft=document.getElementById('ft'),fq=document.getElementById('fq');
+fj.innerHTML='<option value="all">모든 저널</option>'+jK.map(j=>`<option value="${j}">${esc(J[j].name)}</option>`).join('');
+ft.innerHTML='<option value="all">모든 주제</option>'+tK.map(t=>`<option value="${t}">${T[t].name}</option>`).join('');
+fj.onchange=()=>{st.j=fj.value;all()};ft.onchange=()=>{st.t=ft.value;all()};
+fq.oninput=()=>{st.q=fq.value.trim().toLowerCase();shown=200;list()};
+document.getElementById('reset').onclick=()=>{st={j:'all',t:'all',q:''};fq.value='';sync();all()};
+document.getElementById('more').onclick=()=>{shown+=200;list()};
+function sync(){fj.value=st.j;ft.value=st.t}
+function list(){
+  const L=P.filter(p=>(st.j==='all'||p.j===st.j)&&(st.t==='all'||p.topics.includes(st.t))&&(!st.q||p.title.toLowerCase().includes(st.q))).sort((a,b)=>b.date.localeCompare(a.date));
+  document.getElementById('status').textContent=`${L.length.toLocaleString()}편`+(L.length>shown?` 중 최신 ${shown}편 표시`:'');
+  const ul=document.getElementById('papers');
+  ul.innerHTML=L.length?L.slice(0,shown).map(p=>`<li><div><a class="title" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a><span class="chips">${p.topics.map(t=>`<span class="chip" style="background:${T[t].color}">${T[t].name}</span>`).join('')}</span></div><div class="meta">${esc(J[p.j].name)}</div><div class="date">${p.date.replace(/-/g,'.')}</div></li>`).join(''):'<li class="meta" style="display:block">조건에 맞는 논문이 없습니다. 필터를 초기화하거나 검색어를 바꿔 보세요.</li>';
+  document.getElementById('more').hidden=L.length<=shown;
+}
+function all(){shown=200;matrix();list()}
+all();
+</script>
+</body>
+</html>
